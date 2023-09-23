@@ -1,0 +1,92 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  width: 1000%;
+  height: 1000%;
+  background-image: url('../../public/images/SeekPng.com_space-png_256238.webp');
+  background-repeat: repeat;
+  background-size: 100px, 100px;
+  transform: rotate(-45deg);
+  z-index: -1;
+  opacity: 0.5;
+}
+
+
+#login-title {
+  font-family: 'Urbanist-Bold', sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -150%);
+}
+
+.login {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  font-family: 'Urbanist-Medium', sans-serif;
+  background-color: #21272f;
+  height: 10rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 7%;
+  border: 3px solid #fe8944;
+}
+
+.login-form input {
+  font-family: 'Urbanist-Regular', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: transparent;
+  border: dashed 3px grey;
+  border-radius:6%;
+  outline: none;
+  transition: border 0.3s ease-in-out;
+}
+
+.login-form input:focus {
+  border: solid #fe8944;
+}
+
+#login-button {
+  font-family: 'Urbanist-Medium', sans-serif;
+  font-size: 1.1em;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #373d43;
+  transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+}
+
+#login-button:hover {
+  background-color: #fe8944;
+  border-radius: 20px;
+}
