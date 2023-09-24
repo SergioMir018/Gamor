@@ -1,17 +1,15 @@
-body, html {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body {
+  overflow: hidden;
 }
 
-body::before {
-  content: '';
-  position: fixed;
-  width: 1000%;
-  height: 1000%;
-  background-image: url('../../public/images/SeekPng.com_space-png_256238.webp');
+.login-background {
+  position: absolute;
+  height: 10000px;
+  width: 10000px;
+  top: -500%;
+  left: -500%;
+  margin: 0;
+  background-image: url('../../images/SeekPng.com_space-png_256238.webp');
   background-repeat: repeat;
   background-size: 100px, 100px;
   transform: rotate(-45deg);
@@ -29,7 +27,7 @@ body::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -150%);
+  transform: translate(-51%, -150%);
 }
 
 .login {
@@ -39,6 +37,10 @@ body::before {
 }
 
 .login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   font-family: 'Urbanist-Medium', sans-serif;
   background-color: #21272f;
   height: 10rem;
@@ -64,7 +66,7 @@ body::before {
   padding-right: 10px;
   background: transparent;
   border: dashed 3px grey;
-  border-radius:6%;
+  border-radius: 10px;
   outline: none;
   transition: border 0.3s ease-in-out;
 }

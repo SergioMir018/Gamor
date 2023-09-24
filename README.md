@@ -10,7 +10,7 @@ El sitio web consta de las siguientes secciones.
   - Navbar(Link de registro y login de la aplicación).
   - Sección Principal(Main Board).
   - Sección de Categorías.
-  - Página de autenticación(Login).
+  - Página de autenticación(Login). (DONE)
 
 Para esta página no se facilita ningún diseño, el candidato debe proporcionar uno en la entrega del ejercicio.
 Página de Registro(Esta página no será evaluada, no debe ser maquetada sólo deben aparecer los links en la página principal).
