@@ -81,12 +81,11 @@ body::before {
   padding-bottom: 10px;
   cursor: pointer;
   border: none;
-  border-radius: 5px;
-  background-color: #373d43;
-  transition: background-color 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+  border-radius: 20px;
+  background-color: #fe8944;
+  transition: background-color 0.3s ease-in-out;
 }
 
 #login-button:hover {
-  background-color: #fe8944;
-  border-radius: 20px;
+  background-color: #d67339;
 }
