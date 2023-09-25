@@ -1,11 +1,11 @@
 import Login from './components/Login/Login.jsx'
-import Main from './components/Main/Main';
+import MainHub from './components/Main/Main-Hub.jsx';
 
 function App() {
   return (
     <>
-      {/*<Login />*/
-      <Main />}
+      {/*<Login />*/}
+      <MainHub />
     </>
   )
 }
