@@ -23,6 +23,7 @@
 .hub-sections-links li {
   font-family: 'Urbanist-Medium', sans-serif;
   margin-right: 30px;
+  cursor: pointer;
 }
 
 .hub-sections-links li:last-child {
@@ -40,6 +41,7 @@
 .profile-section-links li {
   font-family: 'Urbanist-Medium', sans-serif;
   margin-right: 50px;
+  cursor: pointer;
 }
 
 .profile-section-section li:last-child {
