@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../styles/Main-Display.css'
+import { redirectToCreateAccount } from '../../utils/redirectPath.js'
 
 export default function MainDisplay() {
   return (
@@ -12,7 +13,7 @@ export default function MainDisplay() {
         <p>gamor now has <strong id='feature-highlight'>stream party</strong> platform</p>
         <div className='links-sing-in'></div>
         <ul className='account-links'>
-          <li><a href="#">Create account</a></li>
+          <li id='create-link' onClick={() => redirectToCreateAccount('#')}><a href="#">Create account</a></li>
           <li><a href="#">Sing in</a></li>
         </ul>
       </div>

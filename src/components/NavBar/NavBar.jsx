@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../styles/NavBar.css'
+import { redirectToCreateAccount } from '../../utils/redirectPath.js'
 
 export default function NavBar() {
   return (
@@ -16,7 +17,7 @@ export default function NavBar() {
       <div className='profile-section'>
         <ul className='profile-section-links'>
           <li id='sing-in'><a href='#'>Sing In</a></li>
-          <li id='create-account'><a href='#'>Create Account</a></li>
+          <li id='create-account' onClick={() => redirectToCreateAccount('#')}><a href='#'>Create Account</a></li>
         </ul>
       </div>
     </nav>
