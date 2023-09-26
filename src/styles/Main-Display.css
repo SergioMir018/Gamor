@@ -1,0 +1,56 @@
+.main-display {
+  margin-top: 35px;
+  margin-right: 50px;
+  height: 40em;
+  background-color: #21272f;
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: 484.7px 484.7px 484.7px;
+}
+
+.game-display {
+  background-color: #fe8944;
+  border-radius: 5px;
+}
+
+.streaming-sing-in {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.streaming-sing-in h1 {
+  font-family: 'Urbanist-Bold', sans-serif;
+  font-size: 3.5em;
+  display: inline-block;
+  margin: 0;
+  margin-left: 4rem;
+}
+
+.streaming-sing-in p {
+  font-family: 'Urbanist-Regular', sans-serif;
+  display: block;
+  font-size: 1rem;
+  margin-left: 4rem;
+  color: #6c727a;
+}
+
+.account-links {
+  display: flex;
+  list-style: none;
+}
+
+#slogan-top {
+  margin-top: 5rem;
+}
+
+#slogan-purple {
+  margin: 0;
+  margin-left: 4rem;
+  color: #7e34f0;
+}
+
+#feature-highlight {
+  font-family: 'Urbanist-Bold', sans-serif;
+  color: white;
+}
