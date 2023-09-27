@@ -6,6 +6,11 @@ export default function MainDisplay() {
   return (
     <div className='main-display'>
       <div className='streaming-sing-in'>
+        <div className='background'>
+          <img id='stroke1' src="../../images/v231-wit-46-job105.svg" alt="" />
+          <img id='stroke2' src="../../images/v231-wit-46-job105.svg" alt="" />
+          <img id='stroke3' src="../../images/v231-wit-46-job105.svg" alt="" />
+        </div>
         <h1 id='slogan-top'>start</h1>
         <h1 id='slogan-purple'>streaming</h1>
         <h1 id='slogan'>games</h1>
