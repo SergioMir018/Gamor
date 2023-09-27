@@ -26,7 +26,7 @@ export default function MainDisplay() {
         <h1 className='announcement'>Fortnite New Season</h1>
         <h2 className='sub-announcement'>Join life stream</h2>
         <div className='add-wait-list'>
-          <img src="../../../../images/user-plus.svg" alt="" />
+          <img id='add-user-svg' src="../../../../images/user-plus.svg" alt="" />
         </div>
         <div className='stream-time'>11 : 45</div>
         <div className='fortnite'>
@@ -41,7 +41,11 @@ export default function MainDisplay() {
           <div>Streams</div>
         </div>
         <h1><span className='section-number'>02.</span> Searching Game</h1>
-        <div></div>
+        <form className='search-input-section'>
+          <input type="text" id='search-input' />
+          <button type="submit" id='additional-filters'></button>
+        </form>
+        <section className='search-results'></section>
       </div>
     </div>
   )

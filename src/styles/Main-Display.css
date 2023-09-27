@@ -132,7 +132,7 @@
 }
 
 .search-section h1:first-child {
-  margin-top: 3.7rem;
+  margin-top: 2.5rem;
 }
 
 .search-section h1:last-child {
@@ -154,7 +154,7 @@
 
 .platforms div {
   margin-right: 1.5rem;
-  font-family: 'Urbanist-Bold', sans-serif;
+  font-family: 'Urbanist-Medium', sans-serif;
   font-size: 1.2rem;
 }
 
@@ -167,6 +167,27 @@
   font-size: 2rem;
   color: #6c727a;
   margin-right: 0.2rem;
+}
+
+.search-input-section {
+  background-color: #1a2028;
+  margin-left: 4rem;
+  width: 75%;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 2.3rem;
+}
+
+.search-results {
+  background-color: #1a2028;
+  margin-left: 4rem;
+  width: 75%;
+  height: 38%;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-2rem);
 }
 
 #slogan-top {
@@ -211,4 +232,40 @@
   display: block;
   transform: translateY(-160%);
   z-index: 4;
+}
+
+#add-user-svg {
+  filter: invert(1);
+}
+
+#search-input {
+  width: 69%;
+  height: 3.5rem;
+  margin-top: 0;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 20px 20px 0 0;
+  border: none;
+  background: transparent;
+  font-size: 1.1rem;
+  font-family: 'Urbanist-Bold', sans-serif;
+}
+
+#search-input:focus {
+  outline: none;
+}
+
+#additional-filters {
+  width: 25%;
+  border-radius: 0 20px 0 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  background-image: url('../../images/adjustments-horizontal.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  filter: invert(1);
+  opacity: 0.3;
 }

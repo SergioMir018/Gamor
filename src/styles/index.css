@@ -12,11 +12,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --shadow-color: 204deg 21% 6%;
+  --shadow-color: 0deg 0% 8%;
   --shadow-elevation-high:
-    0px 1px 1.1px hsl(var(--shadow-color) / 0.44),
-    0.1px 5px 5.6px -1.2px hsl(var(--shadow-color) / 0.44),
-    0.4px 19.1px 21.5px -2.5px hsl(var(--shadow-color) / 0.44);
+    0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.36),
+    0.8px 1.6px 2px -0.8px hsl(var(--shadow-color) / 0.36),
+    2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color) / 0.36),
+    5px 10px 12.6px -2.5px hsl(var(--shadow-color) / 0.36);
 }
 
 @font-face {
