@@ -33,7 +33,16 @@ export default function MainDisplay() {
           <img src="../../../images/Fortnite-Darkmode.webp" width="370" height="370" alt="" />
         </div>
       </div>
-      <div className='search-section'>Search thing</div>
+      <div className='search-section'>
+        <h1><span className='section-number'>01.</span> Chose Platform</h1>
+        <div className='platforms'>
+          <div>Party</div>
+          <div>Matches</div>
+          <div>Streams</div>
+        </div>
+        <h1><span className='section-number'>02.</span> Searching Game</h1>
+        <div></div>
+      </div>
     </div>
   )
 }
