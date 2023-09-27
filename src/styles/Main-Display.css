@@ -262,7 +262,7 @@
   border: none;
   background: transparent;
   cursor: pointer;
-  background-image: url('../../images/adjustments-horizontal.svg');
+  background-image: url('../../public/images/adjustments-horizontal.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30%;

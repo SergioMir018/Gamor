@@ -26,11 +26,11 @@ export default function MainDisplay() {
         <h1 className='announcement'>Fortnite New Season</h1>
         <h2 className='sub-announcement'>Join life stream</h2>
         <div className='add-wait-list'>
-          <img id='add-user-svg' src="../../../../images/user-plus.svg" alt="" />
+          <img id='add-user-svg' src="../../../public/images/user-plus.svg" alt="" />
         </div>
         <div className='stream-time'>11 : 45</div>
         <div className='fortnite'>
-          <img src="../../../images/Fortnite-Darkmode.webp" width="370" height="370" alt="" />
+          <img src="../../../public/images/Fortnite-Darkmode.webp" width="370" height="370" alt="" />
         </div>
       </div>
       <div className='search-section'>
