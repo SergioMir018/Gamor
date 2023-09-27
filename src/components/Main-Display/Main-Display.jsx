@@ -22,7 +22,17 @@ export default function MainDisplay() {
           <li><a href="#">Sing in</a></li>
         </ul>
       </div>
-      <div className='game-display'>Game thing</div>
+      <div className='game-display'>
+        <h1 className='announcement'>Fortnite New Season</h1>
+        <h2 className='sub-announcement'>Join life stream</h2>
+        <div className='add-wait-list'>
+          <img src="../../../../images/user-plus.svg" alt="" />
+        </div>
+        <div className='stream-time'>11 : 45</div>
+        <div className='fortnite'>
+          <img src="../../../images/Fortnite-Darkmode.webp" width="370" height="370" alt="" />
+        </div>
+      </div>
       <div className='search-section'>Search thing</div>
     </div>
   )
