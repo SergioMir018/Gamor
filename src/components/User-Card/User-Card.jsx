@@ -1,6 +1,7 @@
 import React from 'react'
 
 import '../../styles/User-Card.css'
+import UserPic from '../User-Pic/User-Pic';
 
 export default function UserCard() {
 
@@ -11,7 +12,9 @@ export default function UserCard() {
     <div className='user-card'>
       <div className='number'>{mockNumber}</div>
       <p className='user-name'>{mockName}</p>
-      <div className='users-pics'>pics</div>
+      <div className='users-pics'>
+        <UserPic />
+      </div>
       <button className='add-button'> + </button>
     </div>
   )
