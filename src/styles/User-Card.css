@@ -1,3 +1,44 @@
 .user-card {
-  background: grey;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.number {
+  font-family: 'Urbanist-Bold', sans-serif;
+  background: #14181e;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.user-name {
+  font-family: 'Urbanist-Bold', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0.5rem;
+}
+
+.users-pics {
+  margin-left: 0.7rem;
+  height: 100%;
+  width: 40%;
+}
+
+.add-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'Urbanist-Bold', sans-serif;
+  border-radius: 4px;
+  border: none;
+  margin-left: 1rem;
+  height: 1.6rem;
+  width: 1.8rem;
 }
