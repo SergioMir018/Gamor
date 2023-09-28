@@ -1,15 +1,19 @@
 import React from 'react'
 import '../../styles/Main-Display.css'
 import { redirectToCreateAccount } from '../../utils/redirectPath.js'
+import ForniteDarkmode from '../../assets/images/Fortnite-Darkmode.webp'
+import Stroke from '../../assets/images/v231-wit-46-job105.svg'
+import AddUser from '../../assets/images/user-plus.svg'
+
 
 export default function MainDisplay() {
   return (
     <div className='main-display'>
       <div className='streaming-sing-in'>
         <div className='background'>
-          <img id='stroke1' src="../../images/v231-wit-46-job105.svg" alt="" />
-          <img id='stroke2' src="../../images/v231-wit-46-job105.svg" alt="" />
-          <img id='stroke3' src="../../images/v231-wit-46-job105.svg" alt="" />
+          <img id='stroke1' src={Stroke} alt="" />
+          <img id='stroke2' src={Stroke} alt="" />
+          <img id='stroke3' src={Stroke} alt="" />
         </div>
         <h1 id='slogan-top'>start</h1>
         <h1 id='slogan-purple'>streaming</h1>
@@ -26,11 +30,11 @@ export default function MainDisplay() {
         <h1 className='announcement'>Fortnite New Season</h1>
         <h2 className='sub-announcement'>Join life stream</h2>
         <div className='add-wait-list'>
-          <img id='add-user-svg' src="../../../../images/user-plus.svg" alt="" />
+          <img id='add-user-svg' src={AddUser} alt="" />
         </div>
         <div className='stream-time'>11 : 45</div>
         <div className='fortnite'>
-          <img src="../../../images/Fortnite-Darkmode.webp" width="370" height="370" alt="" />
+          <img src={ForniteDarkmode} width="370" height="370" alt="" />
         </div>
       </div>
       <div className='search-section'>
