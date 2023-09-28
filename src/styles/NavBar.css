@@ -1,5 +1,5 @@
 .navbar {
-  padding-top: 30px;
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,7 +23,11 @@
 .hub-sections-links li {
   font-family: 'Urbanist-Medium', sans-serif;
   margin-right: 30px;
+<<<<<<< HEAD
   cursor: pointer;
+=======
+  color: #6c727a;
+>>>>>>> main-display
 }
 
 .hub-sections-links li:last-child {
@@ -57,4 +61,5 @@
   padding-left: 20px;
   border-radius: 30px;
   background-color: #13171c;
+  cursor: pointer;
 }
