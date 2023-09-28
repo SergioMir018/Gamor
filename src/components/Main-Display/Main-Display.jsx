@@ -49,7 +49,12 @@ export default function MainDisplay() {
           <input type="text" id='search-input' />
           <button type="submit" id='additional-filters'></button>
         </form>
-        <section className='search-results'></section>
+        <section className='search-results'>
+          <div className='results'>
+
+          </div>
+          <button className='search-button'>Search Now</button>
+        </section>
       </div>
     </div>
   )
