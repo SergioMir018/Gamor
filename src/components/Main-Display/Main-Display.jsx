@@ -1,9 +1,12 @@
 import React from 'react'
-import '../../styles/Main-Display.css'
 import { redirectToCreateAccount } from '../../utils/redirectPath.js'
+
 import ForniteDarkmode from '../../assets/images/Fortnite-Darkmode.webp'
 import Stroke from '../../assets/images/v231-wit-46-job105.svg'
 import AddUser from '../../assets/images/user-plus.svg'
+import UserCard from '../User-Card/User-Card';
+
+import '../../styles/Main-Display.css'
 
 
 export default function MainDisplay() {
@@ -51,7 +54,7 @@ export default function MainDisplay() {
         </form>
         <section className='search-results'>
           <div className='results'>
-
+            <UserCard />
           </div>
           <button className='search-button'>Search Now</button>
         </section>
