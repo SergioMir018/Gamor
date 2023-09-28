@@ -234,6 +234,11 @@
   z-index: 4;
 }
 
+#stroke1, #stroke2, #stroke3 {
+  filter: saturate(78deg) hue-rotate(264deg) brightness(87%) contrast(97%);
+}
+
+
 #add-user-svg {
   filter: invert(1);
 }
@@ -262,7 +267,7 @@
   border: none;
   background: transparent;
   cursor: pointer;
-  background-image: url('../../public/images/adjustments-horizontal.svg');
+  background-image: url('../../images/adjustments-horizontal.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30%;
