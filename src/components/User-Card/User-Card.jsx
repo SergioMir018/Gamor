@@ -10,6 +10,7 @@ export default function UserCard() {
 
   const avatar = users.length > 0 ? users[0].avatar : ''
   const mockName = users.length > 0 ? users[0].name : ''
+  console.log(avatar)
 
   return (
     <div className='user-card'>
