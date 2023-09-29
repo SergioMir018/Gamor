@@ -25,6 +25,8 @@
 }
 
 .users-pics {
+  display: flex;
+  align-items: center;
   margin-left: 0.7rem;
   height: 100%;
   width: 40%;

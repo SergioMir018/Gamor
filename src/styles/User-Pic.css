@@ -1,0 +1,13 @@
+/* User-Pic.css */
+.pic-container {
+  height: 100%;
+  width: 30px;
+  border-radius: 50px;
+}
+
+.pic-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+}
