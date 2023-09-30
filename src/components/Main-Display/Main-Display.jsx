@@ -9,6 +9,7 @@ import UserCard from '../User-Card/User-Card';
 
 import users from '../../data/users.json'
 import '../../styles/Main-Display.css'
+import { Link } from 'react-router-dom'
 
 
 export default function MainDisplay() {
@@ -80,8 +81,12 @@ export default function MainDisplay() {
         <p>gamor now has <strong id='feature-highlight'>stream party</strong> platform</p>
         <div className='links-sing-in'></div>
         <ul className='account-links'>
-          <li id='create-link' onClick={() => redirectToCreateAccount('/Gamor/login')}><a href="/Gamor/login">Create account</a></li>
-          <li><a href='/Gamor/login'>Sing in</a></li>
+          <li>
+            <Link id='create-link' to="/Gamor/login">Create account</Link>
+          </li>
+          <li>
+            <Link to='/Gamor/login'>Sing in</Link>
+          </li>
         </ul>
       </div>
       <div className='game-display'>
