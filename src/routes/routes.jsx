@@ -10,7 +10,7 @@ export const router = createHashRouter([
     element: <MainHub />
   },
   {
-    path: '/Gamor/login',
+    path: '/login',
     element: <Login />
   }
 ])
