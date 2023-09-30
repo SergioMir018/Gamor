@@ -1,7 +1,15 @@
 import React from 'react'
 
-export const CategoriesSection = () => {
+import '../../styles/CategoriesSection.css'
+
+export default function CategoriesSection() {
   return (
-    <div>Categories-Section</div>
+    <section className='categories-section'>
+      <h1 className='categories-headline'>Trending Categories</h1>
+      <div>
+        
+      </div>
+    </section>
   )
 }
+
