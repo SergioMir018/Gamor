@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Sun from '../../assets/images/Sun'
 import Moon from '../../assets/images/Moon'
 
-export default function NavBar() {
+export default function NavBar({ theme, setTheme }) {
   return (
     <nav className='navbar'>
       <div className='hub-sections'>
@@ -33,8 +33,7 @@ export default function NavBar() {
             <Link id='create-account' to='/Gamor/login'>Create Account</Link>
           </li>
           <div className='theme'>
-            <Sun />
-            {/*theme === 'light' ? <Moon /> : <Sun />*/}
+            {theme ? <Sun setTheme={setTheme} theme={theme}/> : <Moon setTheme={setTheme} theme={theme}/>}
           </div>
         </ul>
       </div>
