@@ -16,8 +16,8 @@ export default function NavBar() {
       <h1 className='hub-name'>Gamor</h1>
       <div className='profile-section'>
         <ul className='profile-section-links'>
-          <li id='sing-in'><a href='/login'>Sing In</a></li>
-          <li id='create-account' onClick={() => redirectToCreateAccount('/login')}><a href='/login'>Create Account</a></li>
+          <li id='sing-in'><a href='/Gamor/login'>Sing In</a></li>
+          <li id='create-account' onClick={() => redirectToCreateAccount('/Gamor/login')}><a href='/Gamor/login'>Create Account</a></li>
         </ul>
       </div>
     </nav>
