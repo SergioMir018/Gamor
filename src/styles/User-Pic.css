@@ -1,5 +1,8 @@
 /* User-Pic.css */
 .pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
   width: 30px;
   border-radius: 50px;

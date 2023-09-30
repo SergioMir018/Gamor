@@ -1,4 +1,4 @@
-import React from 'react'
+import {useState, useEffect} from 'react'
 import { redirectToCreateAccount } from '../../utils/redirectPath.js'
 
 import ForniteDarkmode from '../../assets/images/Fortnite-Darkmode.webp'
@@ -6,10 +6,59 @@ import Stroke from '../../assets/images/Stroke.jsx'
 import AddUser from '../../assets/images/UserPlus.jsx'
 import UserCard from '../User-Card/User-Card';
 
+
+import users from '../../data/users.json'
 import '../../styles/Main-Display.css'
 
 
 export default function MainDisplay() {
+
+  const [selected, setSelectedPlatform] = useState(null)
+  const [searchTerm, setSearchTerm] = useState('')
+  const [isSearched, setIsSearched] = useState(false)
+  const [filteredUsers, setFilteredUsers] = useState([])
+
+  const handleSelect = (index) => {
+    setSelectedPlatform(index)
+  }
+
+
+  const handleSearchChange = (event) => {
+    setIsSearched(false)
+    setSearchTerm(event.target.value)
+  }
+
+  const handleSearch = (event) => {
+    event.preventDefault()
+    setIsSearched(true)
+    searchUsers(event.target.value)
+    console.log(filteredUsers)
+  }
+
+  const searchUsers = () => {
+        let filteredData= []
+        if(users.length > 0){
+          filteredData = users.filter(user => {
+            if (
+              user.category.toLowerCase() === searchTerm.toLowerCase() || 
+              user.name.toLowerCase() === searchTerm.toLowerCase()
+            ) {
+              return true;
+          }
+        })
+      }
+      setFilteredUsers(filteredData);
+    }
+
+  useEffect(() => {
+    if(searchTerm !== ''){ 
+      searchUsers(searchTerm);
+    }
+    
+  },[searchTerm]);
+  
+  const platforms = ['Party', 'Matches', 'Streams']
+
   return (
     <div className='main-display'>
       <div className='streaming-sing-in'>
@@ -49,20 +98,36 @@ export default function MainDisplay() {
       <div className='search-section'>
         <h1><span className='section-number'>01.</span> Chose Platform</h1>
         <div className='platforms'>
-          <div>Party</div>
-          <div>Matches</div>
-          <div>Streams</div>
+          {platforms.map((platform, index) => (
+            <div
+              key={index}
+              className={selected === index ? 'selected' : ''}
+              onClick={() => handleSelect(index)}
+            >
+              {platform}
+            </div>
+          ))}
         </div>
         <h1><span className='section-number'>02.</span> Searching Game</h1>
-        <form className='search-input-section'>
-          <input type="text" id='search-input' />
-          <button type="submit" id='additional-filters'></button>
+        <form className='search-input-section' onSubmit={handleSearch}>
+          <input 
+            type="text" 
+            id='search-input' 
+            value={searchTerm}
+            onChange={handleSearchChange} />
+          <button id='additional-filters'></button>
+          <button type='submit' className='search-button'>Search Now</button>
         </form>
         <section className='search-results'>
           <div className='results'>
-            <UserCard />
+            {isSearched && (
+              filteredUsers.map((user, index) => (
+                user && <UserCard key={index} name={user.name} avatar={user.avatar} number={index + 1} />
+              ))
+            )
+            }
           </div>
-          <button className='search-button'>Search Now</button>
+          
         </section>
       </div>
     </div>

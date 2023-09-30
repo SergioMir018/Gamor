@@ -19,6 +19,7 @@
 
 .user-name {
   font-family: 'Urbanist-Bold', sans-serif;
+  width: 35%;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0.5rem;
@@ -40,7 +41,8 @@
   font-family: 'Urbanist-Bold', sans-serif;
   border-radius: 4px;
   border: none;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.2rem;
   height: 1.6rem;
   width: 1.8rem;
 }
