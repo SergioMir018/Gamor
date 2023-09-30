@@ -80,7 +80,7 @@ export default function MainDisplay() {
         <p>gamor now has <strong id='feature-highlight'>stream party</strong> platform</p>
         <div className='links-sing-in'></div>
         <ul className='account-links'>
-          <li id='create-link' onClick={() => redirectToCreateAccount('/login')}><a href="/login">Create account</a></li>
+          <li id='create-link' onClick={() => redirectToCreateAccount('/Gamor/login')}><a href="/Gamor/login">Create account</a></li>
           <li><a href='/Gamor/login'>Sing in</a></li>
         </ul>
       </div>

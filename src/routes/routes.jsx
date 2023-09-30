@@ -1,16 +1,16 @@
 import * as React from "react";
-import { createHashRouter } from 'react-router-dom'
+import { createBrowserRouter } from 'react-router-dom'
 
 import Login from '../components/Login/Login';
 import MainHub from '../components/Main/Main-Hub';
 
-export const router = createHashRouter([
+export const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/Gamor/',
     element: <MainHub />
   },
   {
-    path: '/login',
+    path: '/Gamor/login',
     element: <Login />
   }
 ])
