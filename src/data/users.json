@@ -1,140 +1,140 @@
 [
-  {
-      "name": "Hollie Davidson",
-      "category": "strategy games",
-      "platform": "streams",
-      "avatar": "https://sergiomir018.github.io/Gamor/src/assets/avatars/avatar1.webp"
-  },
-  {
-      "name": "Hyde Madden",
-      "category": "sport games",
-      "platform": "streams",
-      "avatar": "/Gamor/src/assets/avatars/avatar2.webp"
-  },
-  {
-      "name": "Mckenzie Battle",
-      "category": "sport games",
-      "platform": "matched",
-      "avatar": "/Gamor/src/assets/avatars/avatar3.webp"
-  },
-  {
-      "name": "Bryant Lindsey",
-      "category": "adventure games",
-      "platform": "party",
-      "avatar": "/Gamor/src/assets/avatars/avatar4.webp"
-  },
-  {
-      "name": "Loraine Beard",
-      "category": "strategy games",
-      "platform": "party",
-      "avatar": "/Gamor/src/assets/avatars/avatar5.webp"
-  },
-  {
-      "name": "Eddie Barrera",
-      "category": "strategy games",
-      "platform": "streams",
-      "avatar": "/Gamor/src/assets/avatars/avatar6.webp"
-  },
-  {
-      "name": "Kristie Schroeder",
-      "category": "adventure games",
-      "platform": "party",
-      "avatar": "/Gamor/src/assets/avatars/avatar7.webp"
-  },
-  {
-      "name": "Lorene Leon",
-      "category": "fantasy games",
-      "platform": "streams",
-      "avatar": "/Gamor/src/assets/avatars/avatar8.webp"
-  },
-  {
-      "name": "Irma Joyner",
-      "category": "sport games",
-      "platform": "matched",
-      "avatar": "/Gamor/src/assets/avatars/avatar9.webp"
-  },
-  {
-      "name": "Edith Massey",
-      "category": "strategy games",
-      "platform": "party",
-      "avatar": "/Gamor/src/assets/avatars/avatar10.webp"
-  },
-  {
-      "name": "Dejesus Durham",
-      "category": "adventure games",
-      "platform": "matched",
-      "avatar": "/Gamor/src/assets/avatars/avatar11.webp"
-  },
-  {
-      "name": "Patrica Sparks",
-      "category": "arcade games",
-      "platform": "streams",
-      "avatar": "/Gamor/src/assets/avatars/avatar12.webp"
-  },
-  {
-      "name": "Donovan Gregory",
-      "category": "arcade games",
-      "platform": "streams",
-      "avatar": "/Gamor/src/assets/avatars/avatar13.webp"
-  },
-  {
-      "name": "Blanche Rosa",
-      "category": "strategy games",
-      "platform": "matched",
-      "avatar": "/Gamor/src/assets/avatars/avatar14.webp"
-  },
-  {
-      "name": "Kate Cannon",
-      "category": "strategy games",
-      "platform": "matched",
-      "avatar": "/Gamor/src/assets/avatars/avatar15.webp"
-  },
-  {
-      "name": "Faye Reid",
-      "category": "fantasy games",
-      "platform": "matched",
-      "avatar": "/Gamor/src/assets/avatars/avatar16.webp"
-  },
-  {
-      "name": "Ada Lowery",
-      "category": "shooter games",
-      "platform": "party",
-      "avatar": "/Gamor/src/assets/avatars/avatar17.webp"
-  },
-  {
-      "name": "Lester Owen",
-      "category": "fantasy games",
-      "platform": "party",
-      "avatar": "/Gamor/src/assets/avatars/avatar18.webp"
-  },
-  {
-      "name": "Lee Acevedo",
-      "category": "adventure games",
-      "platform": "party",
-      "avatar": "/Gamor/src/assets/avatars/avatar19.webp"
-  },
-  {
-      "name": "Stout Mcfadden",
-      "category": "arcade games",
-      "platform": "party",
-      "avatar": "/Gamor/src/assets/avatars/avatar20.webp"
-  },
-  {
-      "name": "Juliet Parker",
-      "category": "adventure games",
-      "platform": "streams",
-      "avatar": "/Gamor/src/assets/avatars/avatar21.webp"
-  },
-  {
-      "name": "Evangeline Clark",
-      "category": "strategy games",
-      "platform": "matched",
-      "avatar": "/Gamor/src/assets/avatars/avatar22.webp"
-  },
-  {
-      "name": "Harper Carrillo",
-      "category": "action games",
-      "platform": "matched",
-      "avatar": "/Gamor/src/assets/avatars/avatar23.webp"
-  }
+    {
+        "name": "Hollie Davidson",
+        "category": "strategy games",
+        "platform": "streams",
+        "avatar": "/assets/images/avatars/avatar1.webp"
+    },
+    {
+        "name": "Hyde Madden",
+        "category": "sport games",
+        "platform": "streams",
+        "avatar": "/assets/avatars/avatar2.webp"
+    },
+    {
+        "name": "Mckenzie Battle",
+        "category": "sport games",
+        "platform": "matched",
+        "avatar": "/assets/avatars/avatar3.webp"
+    },
+    {
+        "name": "Bryant Lindsey",
+        "category": "adventure games",
+        "platform": "party",
+        "avatar": "/assets/avatars/avatar4.webp"
+    },
+    {
+        "name": "Loraine Beard",
+        "category": "strategy games",
+        "platform": "party",
+        "avatar": "/assets/avatars/avatar5.webp"
+    },
+    {
+        "name": "Eddie Barrera",
+        "category": "strategy games",
+        "platform": "streams",
+        "avatar": "/assets/avatars/avatar6.webp"
+    },
+    {
+        "name": "Kristie Schroeder",
+        "category": "adventure games",
+        "platform": "party",
+        "avatar": "/assets/avatars/avatar7.webp"
+    },
+    {
+        "name": "Lorene Leon",
+        "category": "fantasy games",
+        "platform": "streams",
+        "avatar": "/assets/avatars/avatar8.webp"
+    },
+    {
+        "name": "Irma Joyner",
+        "category": "sport games",
+        "platform": "matched",
+        "avatar": "/assets/avatars/avatar9.webp"
+    },
+    {
+        "name": "Edith Massey",
+        "category": "strategy games",
+        "platform": "party",
+        "avatar": "/assets/avatars/avatar10.webp"
+    },
+    {
+        "name": "Dejesus Durham",
+        "category": "adventure games",
+        "platform": "matched",
+        "avatar": "/assets/avatars/avatar11.webp"
+    },
+    {
+        "name": "Patrica Sparks",
+        "category": "arcade games",
+        "platform": "streams",
+        "avatar": "/assets/avatars/avatar12.webp"
+    },
+    {
+        "name": "Donovan Gregory",
+        "category": "arcade games",
+        "platform": "streams",
+        "avatar": "/assets/avatars/avatar13.webp"
+    },
+    {
+        "name": "Blanche Rosa",
+        "category": "strategy games",
+        "platform": "matched",
+        "avatar": "/assets/avatars/avatar14.webp"
+    },
+    {
+        "name": "Kate Cannon",
+        "category": "strategy games",
+        "platform": "matched",
+        "avatar": "/assets/avatars/avatar15.webp"
+    },
+    {
+        "name": "Faye Reid",
+        "category": "fantasy games",
+        "platform": "matched",
+        "avatar": "/assets/avatars/avatar16.webp"
+    },
+    {
+        "name": "Ada Lowery",
+        "category": "shooter games",
+        "platform": "party",
+        "avatar": "/assets/avatars/avatar17.webp"
+    },
+    {
+        "name": "Lester Owen",
+        "category": "fantasy games",
+        "platform": "party",
+        "avatar": "/assets/avatars/avatar18.webp"
+    },
+    {
+        "name": "Lee Acevedo",
+        "category": "adventure games",
+        "platform": "party",
+        "avatar": "/assets/avatars/avatar19.webp"
+    },
+    {
+        "name": "Stout Mcfadden",
+        "category": "arcade games",
+        "platform": "party",
+        "avatar": "/assets/avatars/avatar20.webp"
+    },
+    {
+        "name": "Juliet Parker",
+        "category": "adventure games",
+        "platform": "streams",
+        "avatar": "/assets/avatars/avatar21.webp"
+    },
+    {
+        "name": "Evangeline Clark",
+        "category": "strategy games",
+        "platform": "matched",
+        "avatar": "/assets/avatars/avatar22.webp"
+    },
+    {
+        "name": "Harper Carrillo",
+        "category": "action games",
+        "platform": "matched",
+        "avatar": "/assets/avatars/avatar23.webp"
+    }
 ]
