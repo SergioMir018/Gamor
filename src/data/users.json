@@ -3,138 +3,138 @@
         "name": "Hollie",
         "category": "strategy",
         "platform": "streams",
-        "avatar": "/assets/image/avatars/avatar1.webp"
+        "avatar": "/images/avatar1.webp"
     },
     {
         "name": "Hyde",
         "category": "sport",
         "platform": "streams",
-        "avatar": "/assets/image/avatars/avatar2.webp"
+        "avatar": "/images/avatar2.webp"
     },
     {
         "name": "Mckenzie",
         "category": "sport",
         "platform": "matched",
-        "avatar": "/assets/image/avatars/avatar3.webp"
+        "avatar": "/images/avatar3.webp"
     },
     {
         "name": "Bryant",
         "category": "adventure",
         "platform": "party",
-        "avatar": "/assets/image/avatars/avatar4.webp"
+        "avatar": "/images/avatar4.webp"
     },
     {
         "name": "Loraine",
         "category": "strategy",
         "platform": "party",
-        "avatar": "/assets/image/avatars/avatar5.webp"
+        "avatar": "/images/avatar5.webp"
     },
     {
         "name": "Eddie",
         "category": "strategy",
         "platform": "streams",
-        "avatar": "/assets/image/avatars/avatar6.webp"
+        "avatar": "/images/avatar6.webp"
     },
     {
         "name": "Kristie",
         "category": "adventure",
         "platform": "party",
-        "avatar": "/assets/image/avatars/avatar7.webp"
+        "avatar": "/images/avatar7.webp"
     },
     {
         "name": "Lorene",
         "category": "fantasy",
         "platform": "streams",
-        "avatar": "/assets/image/avatars/avatar8.webp"
+        "avatar": "/images/avatar8.webp"
     },
     {
         "name": "Irma",
         "category": "sport",
         "platform": "matched",
-        "avatar": "/assets/avatars/avatar9.webp"
+        "avatar": "/images/avatar9.webp"
     },
     {
         "name": "Edith",
         "category": "strategy",
         "platform": "party",
-        "avatar": "/assets/image/avatars/avatar10.webp"
+        "avatar": "/images/avatar10.webp"
     },
     {
         "name": "Dejesus",
         "category": "adventure",
         "platform": "matched",
-        "avatar": "/assets/image/avatars/avatar11.webp"
+        "avatar": "/images/avatar11.webp"
     },
     {
         "name": "Patrica",
         "category": "arcade",
         "platform": "streams",
-        "avatar": "/assets/image/avatars/avatar12.webp"
+        "avatar": "/images/avatar12.webp"
     },
     {
         "name": "Donovan",
         "category": "arcade",
         "platform": "streams",
-        "avatar": "/assets/image/avatars/avatar13.webp"
+        "avatar": "/images/avatar13.webp"
     },
     {
         "name": "Blanche",
         "category": "strategy",
         "platform": "matched",
-        "avatar": "/assets/image/avatars/avatar14.webp"
+        "avatar": "/images/avatar14.webp"
     },
     {
         "name": "Kate",
         "category": "strategy",
         "platform": "matched",
-        "avatar": "/assets/image/avatars/avatar15.webp"
+        "avatar": "/images/avatar15.webp"
     },
     {
         "name": "Faye",
         "category": "fantasy",
         "platform": "matched",
-        "avatar": "/assets/image/avatars/avatar16.webp"
+        "avatar": "/images/avatar16.webp"
     },
     {
         "name": "Ada",
         "category": "shooter",
         "platform": "party",
-        "avatar": "/assets/image/avatars/avatar17.webp"
+        "avatar": "/images/avatar17.webp"
     },
     {
         "name": "Lester",
         "category": "fantasy",
         "platform": "party",
-        "avatar": "/assets/image/avatars/avatar18.webp"
+        "avatar": "/images/avatar18.webp"
     },
     {
         "name": "Lee",
         "category": "adventure",
         "platform": "party",
-        "avatar": "/assets/image/avatars/avatar19.webp"
+        "avatar": "/images/avatar19.webp"
     },
     {
         "name": "Stout",
         "category": "arcade",
         "platform": "party",
-        "avatar": "/assets/image/avatars/avatar20.webp"
+        "avatar": "/images/avatar20.webp"
     },
     {
         "name": "Juliet",
         "category": "adventure",
         "platform": "streams",
-        "avatar": "/assets/image/avatars/avatar21.webp"
+        "avatar": "/images/avatar21.webp"
     },
     {
         "name": "Evangeline",
         "category": "strategy",
         "platform": "matched",
-        "avatar": "/assets/image/avatars/avatar22.webp"
+        "avatar": "/images/avatar22.webp"
     },
     {
         "name": "Harper",
         "category": "action",
         "platform": "matched",
-        "avatar": "/assets/image/avatars/avatar23.webp"
+        "avatar": "/images/avatar23.webp"
     }
 ]
