@@ -1,5 +1,9 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="100%" viewBox="0 0 1024 672" enable-background="new 0 0 1024 672" xml:space="preserve">
+import React from 'react'
+
+export default function Stroke({ color }) {
+  return (
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	  width="100%" viewBox="0 0 1024 672" enableBackground="new 0 0 1024 672" xmlSpace="preserve">
 <path fill="#7e34f0" opacity="1.000000" stroke="none"
 		d="
 M413.000031,206.700287 
@@ -61,3 +65,5 @@ M267.757111,419.660706
 	C224.402679,398.176971 245.026627,409.906860 267.757111,419.660706 
 z" />
 </svg>
+  )
+}

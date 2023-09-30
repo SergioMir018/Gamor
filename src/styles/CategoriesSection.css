@@ -1,0 +1,69 @@
+.categories-section {
+  height: 20%;
+  width: 96.8%;
+  margin-top: 130px;
+  margin-bottom: 3rem;
+}
+
+.categories-headline {
+  font-family: 'Urbanist-Bold', sans-serif;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.categories-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 1.5rem;
+  grid-column-gap: 10px;
+  margin-left: 10px;
+}
+
+.category-indx {
+  color: #8e949c;
+  margin-left: 0;
+  margin-top: 1rem;
+}
+
+.slash-color-0::before {
+  content: '/';
+  color: #a34015;
+}
+
+.slash-color-1::before {
+  content: '/';
+  color: #38549c;
+}
+
+.slash-color-2::before {
+  content: '/';
+  color: #85485b;
+}
+
+.slash-color-2::before {
+  content: '/';
+  color: #787141;
+}
+
+.slash-color-2::before {
+  content: '/';
+  color: #533895;
+}
+
+.slash-color-2::before {
+  content: '/';
+  color: #4f7663;
+}
+
+.slash-color-2::before {
+  content: '/';
+  color: #b02e32;
+}
+
+.arrow {
+  display: inline-block;
+  margin-left: 0;
+  height: 16px;
+  width: 24px;
+}

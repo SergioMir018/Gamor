@@ -1,7 +1,23 @@
 import React from 'react'
 
-export const CategoriesSection = () => {
+import Category from '../Category/Category';
+
+import { CATEGORIES } from '../../data/constants'
+import '../../styles/CategoriesSection.css'
+
+export default function CategoriesSection() {
   return (
-    <div>Categories-Section</div>
+    <section className='categories-section'>
+      <h1 className='categories-headline'>Trending Categories</h1>
+      <div className='categories-container'>
+        {
+          CATEGORIES.map((category, indx) => {
+            const isLastCategory = indx === CATEGORIES.length - 1
+            return <Category key={indx} indx={indx} name={category} isLastCategory={isLastCategory}/>
+          })
+        }
+      </div>
+    </section>
   )
 }
+
