@@ -17,6 +17,11 @@
   padding-right: 0.8rem;
 }
 
+.number-light {
+  background: #f3f3f3;
+  color: black;
+}
+
 .user-name {
   font-family: 'Urbanist-Bold', sans-serif;
   width: 35%;
@@ -45,4 +50,9 @@
   margin-right: 0.2rem;
   height: 1.6rem;
   width: 1.8rem;
+}
+
+.add-button-light {
+  background: #ececec;
+  color: black;
 }

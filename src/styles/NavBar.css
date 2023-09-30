@@ -26,6 +26,14 @@
   color: #6c727a;
 }
 
+.active-link {
+  color: #fe8944;
+}
+
+.active-link-light {
+  color: #7e34f0;
+}
+
 .hub-sections-links li:last-child {
   margin-right: 0;
 }
@@ -45,6 +53,10 @@
 
 .profile-section-section li:last-child {
   margin-right: 0;
+}
+
+.theme {
+  cursor: pointer;
 }
 
 #create-account {

@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Stroke({ color }) {
+export default function Stroke({ color, opacity }) {
   return (
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	  width="100%" viewBox="0 0 1024 672" enableBackground="new 0 0 1024 672" xmlSpace="preserve">
-<path fill="#7e34f0" opacity="1.000000" stroke="none"
+<path fill={color} opacity={opacity} stroke="none"
 		d="
 M413.000031,206.700287 
 	C448.853546,206.478165 483.974121,209.611130 519.085571,213.436325 
