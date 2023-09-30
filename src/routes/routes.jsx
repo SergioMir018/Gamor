@@ -7,10 +7,12 @@ import MainHub from '../components/Main/Main-Hub';
 export const router = createHashRouter([
   {
     path: '/',
-    element: <MainHub />
-  },
-  {
-    path: '/Gamor/#/login',
-    element: <Login />
+    element: <MainHub />,
+    children: [
+      {
+        path: 'login',
+        element: <Login />
+      }
+    ]
   }
 ])
