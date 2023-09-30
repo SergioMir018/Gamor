@@ -8,8 +8,8 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/Gamor/" Component={MainHub} />
-        <Route exact path="/Gamor/login" Component={Login} />
+        <Route path='Gamor/' element={<MainHub />} />
+        <Route path="Gamor/login" element={<Login />} />
       </Routes>
     </Router>
   )

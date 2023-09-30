@@ -24,7 +24,7 @@ const Login = () => {
     event.preventDefault()
 
     if (username === 'user' && password === '123') {
-      navigate('/')
+      navigate('/Gamor/')
     } else {
       setIncorrect(true)
       setUsername('')
