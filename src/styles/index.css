@@ -20,6 +20,11 @@
     5px 10px 12.6px -2.5px hsl(var(--shadow-color) / 0.36);
 }
 
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: 'Urbanist-Regular';
   src: url('../assets/fonts/Urbanist-Regular.woff2') format('woff2');

@@ -8,5 +8,8 @@ export default defineConfig({
   base: 'https://sergiomir018.github.io/Gamor/',
   server: {
     port: 8080
+  },
+  build: {
+    assets: 'src/assets/images/*'
   }
 })
