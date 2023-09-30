@@ -13,11 +13,15 @@
   opacity: 0.5;
 }
 
+.login-background-light {
+  opacity: 0.2;
+}
+
 .no-overflow {
   overflow: hidden;
 }
 
-#login-title {
+.login-title {
   font-family: 'Urbanist-Bold', sans-serif;
   font-size: 5rem;
   text-align: center;
@@ -53,6 +57,10 @@
   padding-right: 2rem;
   border-radius: 7%;
   border: 3px solid #fe8944;
+}
+
+.login-form-light {
+  background: #f9fbfc;
 }
 
 .login-form input {

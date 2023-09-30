@@ -8,9 +8,18 @@
   background: #21272f;
 }
 
+.category-light {
+  background: #f9fbfc;
+}
+
 .category:hover {
   background: rgba(126, 52, 240, 0.7);
   transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.category:hover .category-indx-light {
+  color: black;
 }
 
 .category * {
@@ -19,6 +28,11 @@
 
 .category-indx {
   margin-bottom: 0;
+}
+
+.category-indx-light {
+  margin-bottom: 0;
+  color: white;
 }
 
 .category-name {

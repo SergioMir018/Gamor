@@ -48,3 +48,15 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.theme-dark-text {
+  color: black;
+}
+
+#display-light {
+  background: #f9fbfc;
+}
+
+.slogan-light {
+  color: #fe8944;
+}
