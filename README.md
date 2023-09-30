@@ -7,9 +7,9 @@ Se desea crear el sitio web de la plataforma streaming de juegos “Gamor”. Pa
 El sitio web consta de las siguientes secciones.
 
 - Pagina principal
-  - Navbar(Link de registro y login de la aplicación).
-  - Sección Principal(Main Board).
-  - Sección de Categorías.
+  - Navbar(Link de registro y login de la aplicación). (DONE)
+  - Sección Principal(Main Board). (DONE)
+  - Sección de Categorías. (DONE)
   - Página de autenticación(Login). (DONE)
 
 Para esta página no se facilita ningún diseño, el candidato debe proporcionar uno en la entrega del ejercicio.
@@ -19,9 +19,9 @@ El sitio debe ser funcional con datos almacenados de manera estática o utilizan
 
 Los elementos funcionales serán los siguientes:
 
-- Autenticacion.
+- Autenticacion. (DONE)
 - Cambio de tema de sitio web.
-- Busqueda de juego
+- Busqueda de juego (DONE)
 
 En esta sección solo se quiere que se pueda hacer una búsqueda de los juegos que correspondan con los filtros aplicados.
 Al dar click en el signo de suma en el panel de busqueda el usuario sera adicionado en el panel del centro.
