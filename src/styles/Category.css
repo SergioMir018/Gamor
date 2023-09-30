@@ -1,0 +1,26 @@
+.category {
+  font-family: 'Urbanist-Bold', sans-serif;
+  border-radius: 15px;
+  padding-top: 1rem;
+  margin-bottom: 4rem;
+  width: 100%;
+  height: 100%;
+  background: #21272f;
+}
+
+.category:hover {
+  background: rgba(126, 52, 240, 0.7);
+  transition: background 0.3s ease;
+}
+
+.category * {
+  margin-left: 2rem;
+}
+
+.category-indx {
+  margin-bottom: 0;
+}
+
+.category-name {
+  margin-top: 0;
+}

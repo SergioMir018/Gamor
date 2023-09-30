@@ -89,7 +89,7 @@
 .add-wait-list {
   width: 3.5rem;
   height: 3.5rem;
-  position: fixed;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -251,10 +251,6 @@
   display: block;
   transform: translateY(-160%);
   z-index: 4;
-}
-
-#add-user-svg {
-  filter: invert(1);
 }
 
 #search-input {
