@@ -1,13 +1,25 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client';
-import { RouterProvider } from 'react-router-dom'
+import {
+  Route,
+  BrowserRouter as Router,
+  Routes,
+} from "react-router-dom";
+
+import MainHub from './components/Main/Main-Hub.jsx'
+import Login from './components/Login/Login.jsx'
 
 import './styles/index.css'
-import { router } from './routes/routes';
-import App from './App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Router>
+      <Routes>
+        <Route path='/Gamor/*'>
+          <Route index element={<MainHub/>}/>
+          <Route path='login' element={<Login/>}/>
+        </Route>
+      </Routes>
+    </Router>
   </React.StrictMode>,
 )

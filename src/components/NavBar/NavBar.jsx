@@ -7,10 +7,10 @@ export default function NavBar() {
     <nav className='navbar'>
       <div className='hub-sections'>
         <ul className='hub-sections-links'>
-          <li><a href='Gamor/'>Home</a></li>
-          <li><a href='Gamor/'>Streams</a></li>
-          <li><a href='Gamor/'>Party</a></li>
-          <li><a href='Gamor/'>Premium</a></li>
+          <li><a href='/Gamor/'>Home</a></li>
+          <li><a href='/Gamor/'>Streams</a></li>
+          <li><a href='/Gamor/'>Party</a></li>
+          <li><a href='/Gamor/'>Premium</a></li>
         </ul>        
       </div>
       <h1 className='hub-name'>Gamor</h1>

@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), svgr()],
   base: 'https://sergiomir018.github.io/Gamor/',
   server: {
-    port: 8080
+    port: 3001
   },
   build: {
     assets: 'src/assets/images/*'
