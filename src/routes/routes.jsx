@@ -6,11 +6,11 @@ import MainHub from '../components/Main/Main-Hub';
 
 export const router = createHashRouter([
   {
-    path: '/Gamor/',
+    path: '/',
     element: <MainHub />
   },
   {
-    path: '/Gamor/login',
+    path: '/login',
     element: <Login />
   }
 ])
