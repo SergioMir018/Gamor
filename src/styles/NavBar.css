@@ -47,6 +47,10 @@
   margin-right: 0;
 }
 
+.theme {
+  cursor: pointer;
+}
+
 #create-account {
   text-align: center;
   border: 1px solid grey;

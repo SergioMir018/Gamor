@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../../styles/NavBar.css'
 import { Link } from 'react-router-dom'
+import Sun from '../../assets/images/Sun'
+import Moon from '../../assets/images/Moon'
 
 export default function NavBar() {
   return (
@@ -30,6 +32,10 @@ export default function NavBar() {
           <li>
             <Link id='create-account' to='/Gamor/login'>Create Account</Link>
           </li>
+          <div className='theme'>
+            <Sun />
+            {/*theme === 'light' ? <Moon /> : <Sun />*/}
+          </div>
         </ul>
       </div>
     </nav>
