@@ -63,12 +63,12 @@ export default function NavBar({ theme, setTheme }) {
       <div className='profile-section'>
         <ul className='profile-section-links'>
           <li>
-            <Link id='sing-in' className={!theme ? 'theme-dark-text' : ''} to='/Gamor/login'>Sing In</Link>
+            <Link id='sing-in' className={`item-1 ${!theme ? 'theme-dark-text' : ''}`} to='/Gamor/login'>Sing In</Link>
           </li>
-          <li>
-            <Link id='create-account' to='/Gamor/login'>Create Account</Link>
+          <li className='item-3'>
+            <Link  id='create-account' to='/Gamor/login'>Create Account</Link>
           </li>
-          <div className='theme'>
+          <div className='theme item-2'>
             {theme ? <Sun setTheme={setTheme} theme={theme}/> : <Moon setTheme={setTheme} theme={theme}/>}
           </div>
         </ul>

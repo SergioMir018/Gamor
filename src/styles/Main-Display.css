@@ -1,11 +1,11 @@
 .main-display {
   margin-top: 35px;
-  margin-right: 50px;
   height: 40em;
   background-color: #21272f;
+  width: 100%;
   border-radius: 25px;
   display: grid;
-  grid-template-columns: 484.7px 484.7px 484.7px;
+  grid-template-columns: 33% 33% 33%;
 }
 
 .game-display {
@@ -70,6 +70,7 @@
 .game-display {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   align-text: center;
 }
@@ -102,7 +103,7 @@
   justify-content: center;
   border-radius: 50%;
   backdrop-filter: blur(5px);
-  transform: translateY(9.4rem) translateX(-5.9rem);
+  transform: translateY(-8.4rem) translateX(-5.9rem);
   background-color: rgba(255, 255, 255, 0.3);
   z-index: 1;
 }
@@ -130,14 +131,23 @@
 }
 
 .fortnite {
-  transform: translateY(0.5rem)
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  transform: translateY(0.3rem)
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .search-section h1 {
   display: inline-block;
   font-family: 'Urbanist-Bold', sans-serif;
   font-size: 1.5rem;
-  margin-left: 3rem;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -311,7 +321,7 @@
 }
 
 .create-link {
-  cursor:pointer;
+  ccontainerursor:pointer;
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -393,4 +403,105 @@
 
 .additional-filters-dark {
   filter: invert(1);
+}
+
+@media screen and (max-width: 1700px) {
+  .platforms div {
+    font-size: 1rem;
+    margin-right: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .background {
+    width: 400px;
+  }
+
+  .streaming-sing-in h1 {
+    font-size: 2.8rem;
+  }
+
+  .account-links li {
+    font-size: 15px;
+  }
+
+  .search-section h1 {
+    font-size: 1.3rem;
+  }
+
+  .section-number {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .account-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .selected {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-right: -0.1rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .background {
+    width: 300px;
+  }
+
+  .platforms {
+    margin-left: 0;
+  }
+
+  .search-input-section {
+    margin-left: 0;
+  }
+
+  .search-results {
+    margin-left: 0;
+  }
+
+  .streaming-sing-in h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .search-button {
+    transform: translateY(595%) translateX(70%);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .streaming-sing-in h1 {
+    margin-left: 4rem;
+  }
+
+  .main-display {
+    width: 96%;
+  }
+
+  .search-input-section {
+    width: 90%;
+  }
+
+  .search-results {
+    width: 90%;
+  }
+
+  .platforms {
+    margin-right: 0;
+    width: 90%;
+  }
+
+  .search-button {
+    width: 100px;
+    transform: translateY(595%) translateX(73%);
+  }
 }

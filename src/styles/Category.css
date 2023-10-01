@@ -38,3 +38,13 @@
 .category-name {
   margin-top: 0;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .category {
+    font-size: 0.8rem;
+    height: 70%;
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+  }
+}

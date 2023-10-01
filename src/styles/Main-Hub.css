@@ -3,6 +3,14 @@ body {
 }
 
 .main-hub {
-  padding-right: 200px;
-  padding-left: 200px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 1024px) {
+  .main-hub {
+    margin-right: 0;
+    margin-left: 0;
+    display: grid;
+  }
 }

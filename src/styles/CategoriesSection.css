@@ -67,3 +67,18 @@
   height: 16px;
   width: 24px;
 }
+
+@media screen and (max-width: 1024px) {
+  .categories-section {
+    margin-top: 80px;
+  }
+
+  .categories-headline {
+    margin-left: 2rem;
+  }
+
+  .categories-container {
+  grid-column-gap: 5px;
+  margin-left: 5px;
+  }
+}

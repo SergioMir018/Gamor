@@ -108,7 +108,7 @@ export default function MainDisplay({ theme }) {
         </div>
         <div className={`stream-time ${!theme ? 'stream-time-light' : ''}`}>11 : 45</div>
         <div className='fortnite'>
-          <img src={fornitePath} width="370" height="370" alt="" />
+          <img src={fornitePath} className='fornite-image'  width="370" height="370" alt="" />
         </div>
       </div>
       <div className='search-section'>
